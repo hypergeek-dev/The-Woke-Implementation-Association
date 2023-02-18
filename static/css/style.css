@@ -116,6 +116,16 @@ textarea{
 	padding: 0 0.5%;
 }
 
+#what-we-do h1, #the-team h1, #educational-links h1 {
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+#what-we-do p {
+	max-width: 1242px;
+	margin: auto;
+}
+
 #the-team div {
 	display: flex;
 	flex-direction: row;
