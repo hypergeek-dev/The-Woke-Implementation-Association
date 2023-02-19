@@ -63,7 +63,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .left{
-	background: url("") no-repeat center; /* image need to be added */
+	background: url("/assets/images/tiger-form.jpg") no-repeat center; /* image need to be added */
 	background-size: cover;
 	height: 100%;
 }
@@ -352,5 +352,5 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #456837;
 }
