@@ -377,8 +377,8 @@ textarea{
 
 #the-team div div, #educational-links div div {
 	flex-direction: column;
-	flex: 33.3%;
-	max-width: 40%;
+	flex: 25%;
+	max-width: 80%;
 	min-height: 200px;
 	margin-top: 0;
 }
@@ -444,8 +444,7 @@ footer {
     display: inline;
 }
 .social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
+    font-size: 2rem;
+    margin: 1rem;
     color: #456837;
 }
