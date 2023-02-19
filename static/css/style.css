@@ -277,7 +277,7 @@ textarea{
 
 /* Styling for About Page */
 
-#what-we-do, #the-team {
+#what-we-do, #the-team, #educational-links {
 	box-sizing: border-box;
 	padding: 0 0.5%;
 }
@@ -292,7 +292,7 @@ textarea{
 	margin: auto;
 }
 
-#the-team div {
+#the-team div, #educational-links div {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -301,19 +301,30 @@ textarea{
 	margin: auto;
 }
 
-#the-team div div {
+#the-team div div, #educational-links div div {
 	flex-direction: column;
 	flex: 33.3%;
-	max-width: 33.3%;
+	max-width: 40%;
 	min-height: 200px;
+	margin-top: 0;
 }
 
-#the-team div div p {
+#educational-links div div {
+	max-width: 90%;
+}
+
+#the-team div div div img, #educational-links div div div img {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+
+#the-team div div p, #educational-links div div p {
 	padding: 0 2%;
 }
 
 @media screen and (max-width : 976px) {
-	#the-team div {
+	#the-team div, #educational-links div {
 		max-width: 828px;
 	}
 	
@@ -321,15 +332,25 @@ textarea{
 		flex: 50%;
 		max-width: 50%;
 	}
+
+	#educational-links div div {
+		flex: 50%;
+		max-width: 90%;
+	}
 }
 
 @media screen and (max-width : 657px) {
-	#the-team div {
+	#the-team div, #educational-links div {
 		max-width: 414px;
 	}
 
 	#the-team div div {
 		flex: 100%;
-		max-width: 100%;
+		max-width: 90%;
+	}
+
+	#educational-links div div {
+		flex: 100%;
+		max-width: 90%;
 	}
 }
