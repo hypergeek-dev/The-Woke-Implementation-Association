@@ -416,14 +416,21 @@ z-index: 99999;
 }
 
 #educational-links div div {
+    flex: 33.3%;
 	max-width: 90%;
 }
 
-#the-team div div div img, #educational-links div div div img {
+#the-team div div div img {
 	object-fit: cover;
 	height: 100%;
 	width: 200px;
     border-radius: 200px;
+}
+
+#educational-links div div div img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
 
 #the-team div div p, #educational-links div div p {
