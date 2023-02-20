@@ -33,6 +33,10 @@ body {
 #cover-text h3 { color: rgb(249, 249, 249); }	
 	
 }
+#cover-text h3 {
+    color: rgb(249, 249, 249);
+
+}
 #background {
     height: 500px;
     width: 100%;
