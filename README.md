@@ -1,23 +1,27 @@
+# The Leafblowers
 
-The leafblowers is a NGO organization that works to prevent the results of deforestation and as a result improves the climate. It does this through reforestation projects all over the world. This side offers insight in the program and ways to support. 
+## Introduction
 
-User stories
-#### First Time Visitor Goals<br>
+The leafblowers is a NGO organization that works to prevent the results of deforestation and as a result improves the climate. It does this through reforestation projects all over the world. This side offers insight in the program and ways to support.<br><br>
+
+## User stories<br>
+### First Time Visitor Goals<br>
 As a first-time visitor, I want to learn about the mission and purpose of The Leafblowers organization.
 As a first-time visitor, I want to understand the impact of deforestation and the importance of reforestation projects.
-As a first-time visitor, I want to know how I can support The Leafblowers' efforts in preventing deforestation and promoting reforestation.<br<br>
-#### Returning Visitor Goals <br>
+As a first-time visitor, I want to know how I can support The Leafblowers' efforts in preventing deforestation and promoting reforestation.<br<br><br>
+### Returning Visitor Goals <br>
 As a returning visitor, I want to learn about the progress and updates on ongoing reforestation projects.
 As a returning visitor, I want to know about any new initiatives or events organized by The Leafblowers.
-As a returning visitor, I want to donate or volunteer to support The Leafblowers' efforts.<br<br>
-#### Frequent User Goals
+As a returning visitor, I want to donate or volunteer to support The Leafblowers' efforts.<br<br><br>
+### Frequent User Goals
 As a frequent user, I want to stay up-to-date on the latest news and updates on The Leafblowers' reforestation projects.
 As a frequent user, I want to track my donations or volunteer hours and see the impact of my contribution.
-As a frequent user, I want to connect with other members and volunteers of The Leafblowers and exchange ideas and information.
+As a frequent user, I want to connect with other members and volunteers of The Leafblowers and exchange ideas and information.<br><br>
 
 
--   ### Design
-    -   #### Colour Scheme
+## Design<br>
+
+### Colour Scheme
 ![Color Scheme](assets/images/colorscheme.png)
 
     -   #### Typography
@@ -26,11 +30,17 @@ As a frequent user, I want to connect with other members and volunteers of The L
 
 *   ### Wireframes
 
-    -   Home Page Wireframe -
+    -   Home Page Wireframe - 
+    ![Home Page Wireframe](https://share.balsamiq.com/c/iSsN4PNe7ej9omUsaQyEKE.png)
 
-    -   Mobile Wireframe - 
+    -   About Page Wireframe - 
+    ![About Page Wireframe](https://share.balsamiq.com/c/byEBqXRbp7rBQxQAhB39DP.png)
 
-    -   Contact Us Page Wireframe - 
+    -   Map Page Wireframe - 
+    ![Map Page Wireframe](https://share.balsamiq.com/c/joBHECcBCoyCdTAkKp59xA.png)
+
+    -   Donate Page Wireframe - 
+    ![Donate Page Wireframe](https://share.balsamiq.com/c/tgUjUGJXc9Dh9cqbiu8V6F.png)
 
 ## Features
 
@@ -51,6 +61,8 @@ About us
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
 ### Frameworks, Libraries & Programs Used
+
+Bootstrap was used for some styling but most of it was made using custom CSS.
 
 ## Testing
 <p>
@@ -99,7 +111,7 @@ About us
       
 
 ### Further Testing
-On deployment all features and elements tested and functional according to intended outcome
+On deployment all features and elements tested and functional according to intended outcome.
 
 
 
@@ -107,7 +119,14 @@ On deployment all features and elements tested and functional according to inten
 
 ### GitHub Pages
 
+Github pages was used to deploy the project. 
 
+The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab .
+  - Under the "Code and automation" section, click on "Pages"
+  - Under "Build and Deployment", select the option "Deploy from a branch" for "Source", and for "Branch", select "main".
+
+It can be found here: https://hypergeek-dev.github.io/The-Woke-Implementation-Association
 
 
 
@@ -118,10 +137,8 @@ On deployment all features and elements tested and functional according to inten
 
 ### Media
 
--   All Images were created by the developer.
+-   Thank you to pexels.com for the royalty-free images used on the site.
 
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
-
--   Tutor support at Code Institute for their support.
+-   Thank you to Sean from the Hackteam at Code Institute for their support.

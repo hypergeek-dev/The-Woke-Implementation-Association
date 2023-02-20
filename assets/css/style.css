@@ -468,10 +468,10 @@ z-index: 99999;
 	}
 }
 
-/* Sytling for Volunteer Page */
+/* Styling for Volunteer Page */
 
 .volunteer .left {
-    background: url(/assets/images/volunteer-picture.jpg);
+    background: url("../images/volunteer-picture.jpg");
     background-size: cover;
     height: 100%;
 }
