@@ -26,11 +26,17 @@ As a frequent user, I want to connect with other members and volunteers of The L
 
 *   ### Wireframes
 
-    -   Home Page Wireframe -
+    -   Home Page Wireframe - 
+    ![Home Page Wireframe](https://share.balsamiq.com/c/iSsN4PNe7ej9omUsaQyEKE.png)
 
-    -   Mobile Wireframe - 
+    -   About Page Wireframe - 
+    ![About Page Wireframe](https://share.balsamiq.com/c/byEBqXRbp7rBQxQAhB39DP.png)
 
-    -   Contact Us Page Wireframe - 
+    -   Map Page Wireframe - 
+    ![Map Page Wireframe](https://share.balsamiq.com/c/joBHECcBCoyCdTAkKp59xA.png)
+
+    -   Donate Page Wireframe - 
+    ![Donate Page Wireframe](https://share.balsamiq.com/c/tgUjUGJXc9Dh9cqbiu8V6F.png)
 
 ## Features
 
