@@ -1,3 +1,6 @@
+* {font-family: 'Labrada', serif;}
+
+
 body {
     background: rgb(163,97,81);
     background: rgb(250,250,250);
@@ -15,9 +18,14 @@ body {
 }
 /* text box for background-image */
 
-#cover-text,
+#cover-text {
+   width: 40vw;
+   height: 14vh;
+   color: rgb(249, 249, 249);
+}
 #cover-text h2 {
     color: rgb(249, 249, 249);
+
 }
 #background {
     height: 500px;
@@ -37,7 +45,7 @@ backdrop-filter: blur( 4px );
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
     }
-}
+
 @media screen and (max-width: 770px) 
 {
     #cover-text {
