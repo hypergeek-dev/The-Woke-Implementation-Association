@@ -26,9 +26,12 @@ body {
    height: 14vh;
    color: rgb(249, 249, 249);
 }
+
 #cover-text h2 {
     color: rgb(249, 249, 249);
 
+#cover-text h3 { color: rgb(249, 249, 249); }	
+	
 }
 #cover-text h3 {
     color: rgb(249, 249, 249);
