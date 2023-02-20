@@ -234,8 +234,10 @@ textarea{
 }
 
 /* Falling leaves */
-#leaves {position:relative;top:-50px;width:100%;text-align: right;}
-
+#leaves {position:relative;top:-50px;width:100%;text-align: right;
+position: relative;
+z-index: 99999;
+}
 #leaves i {
     display: inline-block;
     width: 200px;
