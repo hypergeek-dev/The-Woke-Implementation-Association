@@ -1,103 +1,6 @@
-* {font-family: 'Labrada', serif;
-    font-weight: bold;
-    color:#000000;
-}
-
-
 body {
-    background: rgb(250,250,250);
-    background: -moz-linear-gradient(286deg, rgba(250,250,250,1) 5%, rgba(163,97,81,1) 46%);
-    background: -webkit-linear-gradient(286deg, rgba(250,250,250,1) 5%, rgba(163,97,81,1) 46%);
-    background: linear-gradient(286deg, rgba(250,250,250,1) 5%, rgba(163,97,81,1) 46%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fafafa",endColorstr="#a36151",GradientType=1);
-
-}
-/*background image */
-#background-outer {
-    overflow: hidden;
-    height: 600px;
-    width: 100%;
-}
-/* text box for background-image */
-
-#cover-text {
-   width: 40vw;
-   height: 14vh;
-   color: rgb(249, 249, 249);
-}
-
-#cover-text h2 {
-    color: rgb(249, 249, 249);
-
-#cover-text h3 { color: rgb(249, 249, 249); }	
-	
-}
-#cover-text h3 {
-    color: rgb(249, 249, 249);
-
-}
-#background {
-    height: 500px;
-    width: 100%;
-    background: url(../images/img1_index.jpg) no-repeat center;
-    background-size: cover;
-    /* effects for the background */
-    animation-name: hero-zoom;
-    animation-duration: 10s;
-    animation-fill-mode: forwards;
-}
-    #land_page_textbox {
-        background: rgba( 255, 255, 255, 0.75 );
-box-shadow: 0 8px 32px 0 rgba(58, 31, 0, 0.37);
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 4px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
-    }
-
-@media screen and (max-width: 770px) 
-{
-    #cover-text {
-        bottom: 20px;
-        right: 0;
-        position: sticky;
-	}
-}
-@media (min-width:1000px) and (max-width: 3000px) {
-	#cover-text {
-        bottom: 20px;
-        right: 0;
-        position: sticky;
-    }
-}
-@media screen and (max-width: 950px) {
-	#cover-text {
-		position: sticky;
-	 }
-}
-/* creates the level of zoom for hero image */
-@keyframes hero-zoom {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.5);
-    }
-}
-
-#cover-text {
-    font-size: 130%;
-    font-family: Barlow, sans-serif;
-    text-transform: none;
-    letter-spacing: 4px;
-    width: 300px;
-    height: 200px;
-    padding-top: 10px;
-    padding-left: 10px;
-    background-color: rgba(0, 0, 0, 0.9);
-    bottom: 210px;
-    right: -260px;
-    position: relative;
+	background-color: #f7f7f7;
+	font-family: Arial, sans-serif;
 }
 
 .reforestation-project {
@@ -160,7 +63,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .left{
-	background: url("../images/notatiger.jpg") no-repeat center;
+	background: url("") no-repeat center; /* image need to be added */
 	background-size: cover;
 	height: 100%;
 }
@@ -237,10 +140,8 @@ textarea{
 }
 
 /* Falling leaves */
-#leaves {position:relative;top:-50px;width:100%;text-align: right;
-position: relative;
-z-index: 99999;
-}
+#leaves {position:relative;top:-50px;width:100%;text-align: right;}
+
 #leaves i {
     display: inline-block;
     width: 200px;
@@ -374,125 +275,3 @@ z-index: 99999;
     }
 }
 
-/* Styling for About Page */
-
-#what-we-do, #the-team, #educational-links {
-	box-sizing: border-box;
-	padding: 0 0.5%;
-}
-
-#what-we-do {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#what-we-do h1, #the-team h1, #educational-links h1 {
-	margin-top: 50px;
-	margin-bottom: 30px;
-}
-
-#what-we-do p {
-	max-width: 1242px;
-	margin: auto;
-}
-
-#the-team div, #educational-links div {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	max-width: 1242px;
-	align-items: center;
-	margin: auto;
-}
-
-#the-team div div, #educational-links div div {
-	flex-direction: column;
-	flex: 25%;
-	max-width: 80%;
-	min-height: 200px;
-	margin-top: 0;
-}
-
-#educational-links div div {
-	max-width: 90%;
-}
-
-#the-team div div div img, #educational-links div div div img {
-	object-fit: cover;
-	height: 100%;
-	width: 200px;
-    border-radius: 200px;
-}
-
-#the-team div div p, #educational-links div div p {
-	padding: 0 2%;
-}
-
-@media screen and (max-width : 976px) {
-	#the-team div, #educational-links div {
-		max-width: 828px;
-	}
-	
-	#the-team div div {
-		flex: 50%;
-		max-width: 50%;
-	}
-
-	#educational-links div div {
-		flex: 50%;
-		max-width: 90%;
-	}
-}
-
-@media screen and (max-width : 657px) {
-	#the-team div, #educational-links div {
-		max-width: 414px;
-	}
-
-	#the-team div div {
-		flex: 100%;
-		max-width: 90%;
-	}
-
-	#educational-links div div {
-		flex: 100%;
-		max-width: 90%;
-	}
-}
-
-/* Sytling for Volunteer Page */
-
-.volunteer .left {
-    background: url(/assets/images/volunteer-picture.jpg);
-    background-size: cover;
-    height: 100%;
-}
-
-/* Styling for Volunteer Success Page */
-
-#volunteer-success {
-    min-height: 555px;
-    text-align: center;
-    padding: 0 2%;
-}
-
-/*footer */
-footer {
-    text-align: center;
-}
-#linha-vertical {
-    height: 200px;
-    border-right: 1px solid red;
-}
-.social-networks {
-    text-align: center;
-}
-.social-networks>li {
-    display: inline;
-}
-.social-networks i {
-    font-size: 2rem;
-    margin: 1rem;
-    color: #456837;
-}
