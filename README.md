@@ -119,7 +119,14 @@ On deployment all features and elements tested and functional according to inten
 
 ### GitHub Pages
 
-Github pages was used to deploy the project. It can be found here: https://hypergeek-dev.github.io/The-Woke-Implementation-Association
+Github pages was used to deploy the project. 
+
+The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab .
+  - Under the "Code and automation" section, click on "Pages"
+  - Under "Build and Deployment", select the option "Deploy from a branch" for "Source", and for "Branch", select "main".
+
+It can be found here: https://hypergeek-dev.github.io/The-Woke-Implementation-Association
 
 
 
